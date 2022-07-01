@@ -6,7 +6,7 @@ You can find it on [feernandooff](https://feernandooff.com)
 # Features
 
 - Darkmode
-- Translation
+- i18n
 - Command Palette
 - Markdown
 - Spotify Integration

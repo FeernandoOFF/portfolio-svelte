@@ -4,6 +4,6 @@
 - [ ] Init Svelte project
 - [ ] Install Tailwind/ Daisy UI
 - [ ] Set themes
-- Set SEO
-- Set Translation
+- [ ] Set SEO
+- Set i18n
 - Deploy to Vercel

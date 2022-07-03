@@ -16,6 +16,7 @@ specifiers:
   prettier-plugin-svelte: ^2.7.0
   svelte: ^3.44.0
   svelte-check: ^2.7.1
+  svelte-parallax: ^0.5.2
   svelte-preprocess: ^4.10.7
   svelte-seo: ^1.4.1
   tailwindcss: ^3.1.4
@@ -43,6 +44,7 @@ devDependencies:
   prettier-plugin-svelte: 2.7.0_nakrehnrzdf7fdea5k3a4dfy4m
   svelte: 3.48.0
   svelte-check: 2.8.0_s3dopqgs4h45owyu2kxaf6kyfu
+  svelte-parallax: 0.5.2
   svelte-preprocess: 4.10.7_jr4mgafwdbjtobsadg2hrd5qfy
   tailwindcss: 3.1.4
   tslib: 2.4.0
@@ -1162,6 +1164,10 @@ packages:
     resolution: {integrity: sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==}
     dev: true
 
+  /focus-options-polyfill/1.6.0:
+    resolution: {integrity: sha512-uyrAmLZrPnUItQY5wTdg31TO9GGZRGsh/jmohUg9oLmLi/sw5y7LlTV/mwyd6rvbxIOGwmRiv6LcTS8w7Bk9NQ==}
+    dev: true
+
   /fraction.js/4.2.0:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
 
@@ -1959,6 +1965,12 @@ packages:
       svelte: '>=3.19.0'
     dependencies:
       svelte: 3.48.0
+    dev: true
+
+  /svelte-parallax/0.5.2:
+    resolution: {integrity: sha512-LrO9Rh8jZQxGes2/Rp+zKxKHm4IEwNdDoNrAheY04UJUi1RTugBrYf+MImwlsuauwRGuokdyG7CVHTrMFc+8pQ==}
+    dependencies:
+      focus-options-polyfill: 1.6.0
     dev: true
 
   /svelte-preprocess/4.10.7_jr4mgafwdbjtobsadg2hrd5qfy:
